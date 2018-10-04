@@ -1,0 +1,25 @@
+{
+    "rasa_nlu_data": {
+        "regex_features": [
+            
+        ],
+        "entity_synonyms": [
+            {
+                "value": "tv",
+                "synonyms": ["fernseher", "tv-gerät", "glotze"]
+            }
+        ],
+        "common_examples": [
+            {
+                "text": "schalte (den| ) (tv|fernseher) (ein|an)",
+                "intent": "tv-on"
+            },
+            {
+                "text": "schalte (den| ) (tv|fernseher) aus",
+                "intent": "tv-off",
+                "entities": []
+            }
+        ]
+    }
+}
+  

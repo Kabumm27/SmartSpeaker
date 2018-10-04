@@ -1,0 +1,83 @@
+{
+    "rasa_nlu_data": {
+        "regex_features": [
+            
+        ],
+        "entity_synonyms": [
+
+        ],
+        "common_examples": [
+            {
+                "text": "ja", 
+                "intent": "affirm", 
+                "entities": []
+            }, 
+            {
+                "text": "yep", 
+                "intent": "affirm", 
+                "entities": []
+            }, 
+            {
+                "text": "jep", 
+                "intent": "affirm", 
+                "entities": []
+            }, 
+            {
+                "text": "yeah", 
+                "intent": "affirm", 
+                "entities": []
+            },
+            {
+                "text": "jo",
+                "intent": "affirm",
+                "entities": []
+            },
+            {
+                "text": "jop",
+                "intent": "affirm",
+                "entities": []
+            },
+            {
+                "text": "richtig",
+                "intent": "affirm",
+                "entities": []
+            },
+            {
+                "text": "ok",
+                "intent": "affirm",
+                "entities": []
+            },
+            {
+                "text": "gut",
+                "intent": "affirm",
+                "entities": []
+            },
+            {
+                "text": "ja, danke",
+                "intent": "affirm",
+                "entities": []
+            },
+            {
+                "text": "korrekt",
+                "intent": "affirm",
+                "entities": []
+            },
+            {
+                "text": "gute wahl",
+                "intent": "affirm",
+                "entities": []
+            },
+            {
+                "text": "klingt gut",
+                "intent": "affirm",
+                "entities": []
+            },
+            {
+                "text": "alles klar",
+                "intent": "affirm",
+                "entities": []
+            }
+        ]
+    }
+}
+  

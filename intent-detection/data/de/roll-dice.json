@@ -1,0 +1,92 @@
+{
+    "rasa_nlu_data": {
+        "regex_features": [
+            
+        ],
+        "entity_synonyms": [
+
+        ],
+        "common_examples": [
+            {
+                "text": "Wirf einen W6",
+                "intent": "roll-dice",
+                "entities": []
+            },
+            {
+                "text": "Rolle einen W 4",
+                "intent": "roll-dice",
+                "entities": []
+            },
+            {
+                "text": "Wirf einen 8 seitigen Würfel",
+                "intent": "roll-dice",
+                "entities": []
+            },
+            {
+                "text": "Wirf einen Würfel",
+                "intent": "roll-dice",
+                "entities": []
+            },
+            {
+                "text": "Rolle einen D20",
+                "intent": "roll-dice",
+                "entities": []
+            },
+            {
+                "text": "Wirf einen D 100",
+                "intent": "roll-dice",
+                "entities": []
+            },
+            {
+                "text": "Wirf einen D zwölf",
+                "intent": "roll-dice",
+                "entities": []
+            },
+            {
+                "text": "Rolle einen D zwanzig",
+                "intent": "roll-dice",
+                "entities": []
+            },
+            {
+                "text": "Würfel",
+                "intent": "roll-dice",
+                "entities": []
+            },
+            {
+                "text": "Rolle Würfel",
+                "intent": "roll-dice",
+                "entities": []
+            },
+            {
+                "text": "Wirf Würfel",
+                "intent": "roll-dice",
+                "entities": []
+            },
+            {
+                "text": "6 seitiger Würfel",
+                "intent": "roll-dice",
+                "entities": []
+            },
+            {
+                "text": "Rolle 20 seitigen Würfel",
+                "intent": "roll-dice",
+                "entities": []
+            },
+            {
+                "text": "Wirf zehn seitigen Würfel",
+                "intent": "roll-dice",
+                "entities": []
+            },
+            {
+                "text": "Wirf acht seitigen Würfel",
+                "intent": "roll-dice",
+                "entities": []
+            },
+            {
+                "text": "Wirf hundert seitigen Würfel",
+                "intent": "roll-dice",
+                "entities": []
+            }
+        ]
+    }
+}

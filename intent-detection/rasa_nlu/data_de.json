@@ -1,0 +1,2234 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "ja"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "yep"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "jep"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "yeah"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "jo"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "jop"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "richtig"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "ok"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "gut"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "ja, danke"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "korrekt"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "gute wahl"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "klingt gut"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "alles klar"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "ja"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "yep"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "jep"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "yeah"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "jo"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "jop"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "richtig"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "ok"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "gut"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "ja, danke"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "korrekt"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "gute wahl"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "klingt gut"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "alles klar"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "ja"
+            },
+            {
+                "entities": [],
+                "intent": "affirm",
+                "text": "yep"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "nein"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "nope"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "ne"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "eher nicht"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "falsch"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "auf keinen fall"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "nö"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "nöp"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "jetzt nicht"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "nein"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "nope"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "ne"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "eher nicht"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "falsch"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "auf keinen fall"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "nö"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "nöp"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "jetzt nicht"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "nein"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "nope"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "ne"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "eher nicht"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "falsch"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "auf keinen fall"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "nö"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "nöp"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "jetzt nicht"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "nein"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "nope"
+            },
+            {
+                "entities": [],
+                "intent": "deny",
+                "text": "ne"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "bye"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "tschüss"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "bis dann"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "stop"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "end"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "ende"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "Bye bye"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "bis bald"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "bye"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "tschüss"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "bis dann"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "stop"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "end"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "ende"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "Bye bye"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "bis bald"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "bye"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "tschüss"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "bis dann"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "stop"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "end"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "ende"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "Bye bye"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "bis bald"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "bye"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "tschüss"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "bis dann"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "stop"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "end"
+            },
+            {
+                "entities": [],
+                "intent": "goodbye",
+                "text": "ende"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "hey"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "hallo"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "hi"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "guten morgen"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "guten abend"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "moin"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "morgen"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "nabend"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "tach"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "grüß dich"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "hey"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "hallo"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "hi"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "guten morgen"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "guten abend"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "moin"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "morgen"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "nabend"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "tach"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "grüß dich"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "hey"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "hallo"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "hi"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "guten morgen"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "guten abend"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "moin"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "morgen"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "nabend"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "tach"
+            },
+            {
+                "entities": [],
+                "intent": "greet",
+                "text": "grüß dich"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 21,
+                        "entity": "on_state",
+                        "start": 18,
+                        "value": "ein"
+                    }
+                ],
+                "intent": "lights",
+                "text": "schalte das licht ein"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "on_state",
+                        "start": 6,
+                        "value": "an"
+                    }
+                ],
+                "intent": "lights",
+                "text": "licht an"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "on_state",
+                        "start": 7,
+                        "value": "aus"
+                    }
+                ],
+                "intent": "lights",
+                "text": "lampen aus"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 19,
+                        "entity": "on_state",
+                        "start": 16,
+                        "value": "aus"
+                    }
+                ],
+                "intent": "lights",
+                "text": "schalte lichter aus"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 17,
+                        "entity": "on_state",
+                        "start": 15,
+                        "value": "an"
+                    }
+                ],
+                "intent": "lights",
+                "text": "schalte lampen an"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 18,
+                        "entity": "on_state",
+                        "start": 15,
+                        "value": "aus"
+                    }
+                ],
+                "intent": "lights",
+                "text": "mach das licht aus"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 28,
+                        "entity": "room",
+                        "start": 18,
+                        "value": "wohnzimmer"
+                    },
+                    {
+                        "end": 32,
+                        "entity": "on_state",
+                        "start": 29,
+                        "value": "aus"
+                    }
+                ],
+                "intent": "lights",
+                "text": "mach das licht im wohnzimmer aus"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 26,
+                        "entity": "room",
+                        "start": 21,
+                        "value": "küche"
+                    },
+                    {
+                        "end": 30,
+                        "entity": "on_state",
+                        "start": 27,
+                        "value": "aus"
+                    }
+                ],
+                "intent": "lights",
+                "text": "schalte licht in der küche ein"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 29,
+                        "entity": "room",
+                        "start": 17,
+                        "value": "schlafzimmer"
+                    },
+                    {
+                        "end": 33,
+                        "entity": "on_state",
+                        "start": 30,
+                        "value": "aus"
+                    }
+                ],
+                "intent": "lights",
+                "text": "schalte licht im schlafzimmer aus"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 21,
+                        "entity": "on_state",
+                        "start": 18,
+                        "value": "ein"
+                    }
+                ],
+                "intent": "lights",
+                "text": "schalte das licht ein"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "on_state",
+                        "start": 6,
+                        "value": "an"
+                    }
+                ],
+                "intent": "lights",
+                "text": "licht an"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "on_state",
+                        "start": 7,
+                        "value": "aus"
+                    }
+                ],
+                "intent": "lights",
+                "text": "lampen aus"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 19,
+                        "entity": "on_state",
+                        "start": 16,
+                        "value": "aus"
+                    }
+                ],
+                "intent": "lights",
+                "text": "schalte lichter aus"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 17,
+                        "entity": "on_state",
+                        "start": 15,
+                        "value": "an"
+                    }
+                ],
+                "intent": "lights",
+                "text": "schalte lampen an"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 18,
+                        "entity": "on_state",
+                        "start": 15,
+                        "value": "aus"
+                    }
+                ],
+                "intent": "lights",
+                "text": "mach das licht aus"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 28,
+                        "entity": "room",
+                        "start": 18,
+                        "value": "wohnzimmer"
+                    },
+                    {
+                        "end": 32,
+                        "entity": "on_state",
+                        "start": 29,
+                        "value": "aus"
+                    }
+                ],
+                "intent": "lights",
+                "text": "mach das licht im wohnzimmer aus"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 26,
+                        "entity": "room",
+                        "start": 21,
+                        "value": "küche"
+                    },
+                    {
+                        "end": 30,
+                        "entity": "on_state",
+                        "start": 27,
+                        "value": "aus"
+                    }
+                ],
+                "intent": "lights",
+                "text": "schalte licht in der küche ein"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 29,
+                        "entity": "room",
+                        "start": 17,
+                        "value": "schlafzimmer"
+                    },
+                    {
+                        "end": 33,
+                        "entity": "on_state",
+                        "start": 30,
+                        "value": "aus"
+                    }
+                ],
+                "intent": "lights",
+                "text": "schalte licht im schlafzimmer aus"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 21,
+                        "entity": "on_state",
+                        "start": 18,
+                        "value": "ein"
+                    }
+                ],
+                "intent": "lights",
+                "text": "schalte das licht ein"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "on_state",
+                        "start": 6,
+                        "value": "an"
+                    }
+                ],
+                "intent": "lights",
+                "text": "licht an"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "on_state",
+                        "start": 7,
+                        "value": "aus"
+                    }
+                ],
+                "intent": "lights",
+                "text": "lampen aus"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 19,
+                        "entity": "on_state",
+                        "start": 16,
+                        "value": "aus"
+                    }
+                ],
+                "intent": "lights",
+                "text": "schalte lichter aus"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 17,
+                        "entity": "on_state",
+                        "start": 15,
+                        "value": "an"
+                    }
+                ],
+                "intent": "lights",
+                "text": "schalte lampen an"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 18,
+                        "entity": "on_state",
+                        "start": 15,
+                        "value": "aus"
+                    }
+                ],
+                "intent": "lights",
+                "text": "mach das licht aus"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 28,
+                        "entity": "room",
+                        "start": 18,
+                        "value": "wohnzimmer"
+                    },
+                    {
+                        "end": 32,
+                        "entity": "on_state",
+                        "start": 29,
+                        "value": "aus"
+                    }
+                ],
+                "intent": "lights",
+                "text": "mach das licht im wohnzimmer aus"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 26,
+                        "entity": "room",
+                        "start": 21,
+                        "value": "küche"
+                    },
+                    {
+                        "end": 30,
+                        "entity": "on_state",
+                        "start": 27,
+                        "value": "aus"
+                    }
+                ],
+                "intent": "lights",
+                "text": "schalte licht in der küche ein"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 29,
+                        "entity": "room",
+                        "start": 17,
+                        "value": "schlafzimmer"
+                    },
+                    {
+                        "end": 33,
+                        "entity": "on_state",
+                        "start": 30,
+                        "value": "aus"
+                    }
+                ],
+                "intent": "lights",
+                "text": "schalte licht im schlafzimmer aus"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 21,
+                        "entity": "on_state",
+                        "start": 18,
+                        "value": "ein"
+                    }
+                ],
+                "intent": "lights",
+                "text": "schalte das licht ein"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "on_state",
+                        "start": 6,
+                        "value": "an"
+                    }
+                ],
+                "intent": "lights",
+                "text": "licht an"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "on_state",
+                        "start": 7,
+                        "value": "aus"
+                    }
+                ],
+                "intent": "lights",
+                "text": "lampen aus"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "stop musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "pause musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "stoppe musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "pausiere musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "mach musik aus"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "mach die musik aus"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "musik aus"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "stop musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "pause musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "stoppe musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "pausiere musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "mach musik aus"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "mach die musik aus"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "musik aus"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "stop musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "pause musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "stoppe musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "pausiere musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "mach musik aus"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "mach die musik aus"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "musik aus"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "stop musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "pause musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "stoppe musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "pausiere musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "mach musik aus"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "mach die musik aus"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "musik aus"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "stop musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-pause",
+                "text": "pause musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "spiele musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "starte musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "mach musik an"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "mach die musik an"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "musik an"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "spiele musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "starte musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "mach musik an"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "mach die musik an"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "musik an"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "spiele musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "starte musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "mach musik an"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "mach die musik an"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "musik an"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "spiele musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "starte musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "mach musik an"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "mach die musik an"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "musik an"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "spiele musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "starte musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "mach musik an"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "mach die musik an"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "musik an"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "spiele musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "starte musik"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "mach musik an"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "mach die musik an"
+            },
+            {
+                "entities": [],
+                "intent": "music-play",
+                "text": "musik an"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Wirf einen W6"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Rolle einen W 4"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Wirf einen 8 seitigen Würfel"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Wirf einen Würfel"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Rolle einen D20"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Wirf einen D 100"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Wirf einen D zwölf"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Rolle einen D zwanzig"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Würfel"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Rolle Würfel"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Wirf Würfel"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "6 seitiger Würfel"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Rolle 20 seitigen Würfel"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Wirf zehn seitigen Würfel"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Wirf acht seitigen Würfel"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Wirf hundert seitigen Würfel"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Wirf einen W6"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Rolle einen W 4"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Wirf einen 8 seitigen Würfel"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Wirf einen Würfel"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Rolle einen D20"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Wirf einen D 100"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Wirf einen D zwölf"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Rolle einen D zwanzig"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Würfel"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Rolle Würfel"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Wirf Würfel"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "6 seitiger Würfel"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Rolle 20 seitigen Würfel"
+            },
+            {
+                "entities": [],
+                "intent": "roll-dice",
+                "text": "Wirf zehn seitigen Würfel"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "time",
+                "text": "wie spät ist es?"
+            },
+            {
+                "entities": [],
+                "intent": "timer",
+                "text": "setze den timer"
+            },
+            {
+                "entities": [],
+                "intent": "timer",
+                "text": "stelle timer"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 20,
+                        "entity": "duration",
+                        "start": 10,
+                        "value": "15 minuten"
+                    }
+                ],
+                "intent": "timer",
+                "text": "timer für 15 minuten"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 31,
+                        "entity": "duration",
+                        "start": 21,
+                        "value": "10 minuten"
+                    }
+                ],
+                "intent": "timer",
+                "text": "stelle den timer auf 10 minuten"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 45,
+                        "entity": "duration",
+                        "start": 20,
+                        "value": "8 minuten und 30 sekunden"
+                    }
+                ],
+                "intent": "timer",
+                "text": "setze den timer auf 8 minuten und 30 sekunden"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "duration",
+                        "start": 0,
+                        "value": "10 minuten"
+                    }
+                ],
+                "intent": "timer",
+                "text": "10 minuten timer"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 26,
+                        "entity": "duration",
+                        "start": 0,
+                        "value": "12 minuten und 20 sekunden"
+                    }
+                ],
+                "intent": "timer",
+                "text": "12 minuten und 20 sekunden timer"
+            },
+            {
+                "entities": [],
+                "intent": "timer",
+                "text": "setze den timer"
+            },
+            {
+                "entities": [],
+                "intent": "timer",
+                "text": "stelle timer"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 20,
+                        "entity": "duration",
+                        "start": 10,
+                        "value": "15 minuten"
+                    }
+                ],
+                "intent": "timer",
+                "text": "timer für 15 minuten"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 31,
+                        "entity": "duration",
+                        "start": 21,
+                        "value": "10 minuten"
+                    }
+                ],
+                "intent": "timer",
+                "text": "stelle den timer auf 10 minuten"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 45,
+                        "entity": "duration",
+                        "start": 20,
+                        "value": "8 minuten und 30 sekunden"
+                    }
+                ],
+                "intent": "timer",
+                "text": "setze den timer auf 8 minuten und 30 sekunden"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "duration",
+                        "start": 0,
+                        "value": "10 minuten"
+                    }
+                ],
+                "intent": "timer",
+                "text": "10 minuten timer"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 26,
+                        "entity": "duration",
+                        "start": 0,
+                        "value": "12 minuten und 20 sekunden"
+                    }
+                ],
+                "intent": "timer",
+                "text": "12 minuten und 20 sekunden timer"
+            },
+            {
+                "entities": [],
+                "intent": "timer",
+                "text": "setze den timer"
+            },
+            {
+                "entities": [],
+                "intent": "timer",
+                "text": "stelle timer"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 20,
+                        "entity": "duration",
+                        "start": 10,
+                        "value": "15 minuten"
+                    }
+                ],
+                "intent": "timer",
+                "text": "timer für 15 minuten"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 31,
+                        "entity": "duration",
+                        "start": 21,
+                        "value": "10 minuten"
+                    }
+                ],
+                "intent": "timer",
+                "text": "stelle den timer auf 10 minuten"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 45,
+                        "entity": "duration",
+                        "start": 20,
+                        "value": "8 minuten und 30 sekunden"
+                    }
+                ],
+                "intent": "timer",
+                "text": "setze den timer auf 8 minuten und 30 sekunden"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "duration",
+                        "start": 0,
+                        "value": "10 minuten"
+                    }
+                ],
+                "intent": "timer",
+                "text": "10 minuten timer"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 26,
+                        "entity": "duration",
+                        "start": 0,
+                        "value": "12 minuten und 20 sekunden"
+                    }
+                ],
+                "intent": "timer",
+                "text": "12 minuten und 20 sekunden timer"
+            },
+            {
+                "entities": [],
+                "intent": "timer",
+                "text": "setze den timer"
+            },
+            {
+                "entities": [],
+                "intent": "timer",
+                "text": "stelle timer"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 20,
+                        "entity": "duration",
+                        "start": 10,
+                        "value": "15 minuten"
+                    }
+                ],
+                "intent": "timer",
+                "text": "timer für 15 minuten"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 31,
+                        "entity": "duration",
+                        "start": 21,
+                        "value": "10 minuten"
+                    }
+                ],
+                "intent": "timer",
+                "text": "stelle den timer auf 10 minuten"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 45,
+                        "entity": "duration",
+                        "start": 20,
+                        "value": "8 minuten und 30 sekunden"
+                    }
+                ],
+                "intent": "timer",
+                "text": "setze den timer auf 8 minuten und 30 sekunden"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "duration",
+                        "start": 0,
+                        "value": "10 minuten"
+                    }
+                ],
+                "intent": "timer",
+                "text": "10 minuten timer"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 26,
+                        "entity": "duration",
+                        "start": 0,
+                        "value": "12 minuten und 20 sekunden"
+                    }
+                ],
+                "intent": "timer",
+                "text": "12 minuten und 20 sekunden timer"
+            },
+            {
+                "entities": [],
+                "intent": "timer",
+                "text": "setze den timer"
+            },
+            {
+                "entities": [],
+                "intent": "timer",
+                "text": "stelle timer"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte den tv aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte tv aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte den fernseher aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte fernseher aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte den tv aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte tv aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte den fernseher aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte fernseher aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte den tv aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte tv aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte den fernseher aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte fernseher aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte den tv aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte tv aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte den fernseher aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte fernseher aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte den tv aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte tv aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte den fernseher aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte fernseher aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte den tv aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte tv aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte den fernseher aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte fernseher aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte den tv aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte tv aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte den fernseher aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte fernseher aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte den tv aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-off",
+                "text": "schalte tv aus"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte den tv ein"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte tv ein"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte den fernseher ein"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte fernseher ein"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte den tv an"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte tv an"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte den fernseher an"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte fernseher an"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte den tv ein"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte tv ein"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte den fernseher ein"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte fernseher ein"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte den tv an"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte tv an"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte den fernseher an"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte fernseher an"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte den tv ein"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte tv ein"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte den fernseher ein"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte fernseher ein"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte den tv an"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte tv an"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte den fernseher an"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte fernseher an"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte den tv ein"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte tv ein"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte den fernseher ein"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte fernseher ein"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte den tv an"
+            },
+            {
+                "entities": [],
+                "intent": "tv-on",
+                "text": "schalte tv an"
+            }
+        ],
+        "entity_synonyms": [
+            {
+                "synonyms": [
+                    "min"
+                ],
+                "value": "minute"
+            },
+            {
+                "synonyms": [
+                    "sec",
+                    "sek"
+                ],
+                "value": "sekunde"
+            },
+            {
+                "synonyms": [
+                    "fernseher",
+                    "tv-gerät",
+                    "glotze"
+                ],
+                "value": "tv"
+            }
+        ],
+        "regex_features": []
+    }
+}

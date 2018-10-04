@@ -1,0 +1,58 @@
+{
+    "rasa_nlu_data": {
+        "regex_features": [
+            
+        ],
+        "entity_synonyms": [
+
+        ],
+        "common_examples": [
+            {
+                "text": "nein", 
+                "intent": "deny", 
+                "entities": []
+            }, 
+            {
+                "text": "nope", 
+                "intent": "deny", 
+                "entities": []
+            }, 
+            {
+                "text": "ne",
+                "intent": "deny", 
+                "entities": []
+            },
+            {
+                "text": "eher nicht",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "falsch",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "auf keinen fall",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "nö",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "nöp",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "jetzt nicht",
+                "intent": "deny",
+                "entities": []
+            }
+        ]
+    }
+}
+  

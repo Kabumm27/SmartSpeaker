@@ -1,0 +1,29 @@
+{
+    "rasa_nlu_data": {
+        "regex_features": [
+            
+        ],
+        "entity_synonyms": [
+
+        ],
+        "common_examples": [
+            {
+                "text": "(spiele|starte) musik",
+                "intent": "music-play"
+            },
+            {
+                "text": "(mach|mach die|) musik an",
+                "intent": "music-play"
+            },
+            {
+                "text": "(stop|pause|stoppe|pausiere) musik",
+                "intent": "music-pause"
+            },
+            {
+                "text": "(mach|mach die|) musik aus",
+                "intent": "music-pause"
+            }
+        ]
+    }
+}
+  

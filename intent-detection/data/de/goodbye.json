@@ -1,0 +1,53 @@
+{
+    "rasa_nlu_data": {
+        "regex_features": [
+            
+        ],
+        "entity_synonyms": [
+
+        ],
+        "common_examples": [
+            {
+                "text": "bye", 
+                "intent": "goodbye", 
+                "entities": []
+            }, 
+            {
+                "text": "tschüss", 
+                "intent": "goodbye", 
+                "entities": []
+            }, 
+            {
+                "text": "bis dann", 
+                "intent": "goodbye", 
+                "entities": []
+            }, 
+            {
+                "text": "stop", 
+                "intent": "goodbye", 
+                "entities": []
+            }, 
+            {
+                "text": "end", 
+                "intent": "goodbye", 
+                "entities": []
+            },
+            {
+                "text": "ende",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "Bye bye",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "bis bald",
+                "intent": "goodbye",
+                "entities": []
+            }
+        ]
+    }
+}
+  

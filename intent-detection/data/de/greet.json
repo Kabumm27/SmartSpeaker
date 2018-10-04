@@ -1,0 +1,63 @@
+{
+    "rasa_nlu_data": {
+        "regex_features": [
+            
+        ],
+        "entity_synonyms": [
+
+        ],
+        "common_examples": [
+            {
+                "text": "hey", 
+                "intent": "greet", 
+                "entities": []
+            },
+            {
+                "text": "hallo", 
+                "intent": "greet", 
+                "entities": []
+            }, 
+            {
+                "text": "hi", 
+                "intent": "greet", 
+                "entities": []
+            },
+            {
+                "text": "guten morgen",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "guten abend",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "moin",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "morgen",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "nabend",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "tach",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "grüß dich",
+                "intent": "greet",
+                "entities": []
+            }
+        ]
+    }
+}
+  

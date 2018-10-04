@@ -1,0 +1,90 @@
+{
+    "rasa_nlu_data": {
+        "regex_features": [
+            
+        ],
+        "entity_synonyms": [
+            {
+                "value": "minute",
+                "synonyms": ["min"]
+            },
+            {
+                "value": "sekunde",
+                "synonyms": ["sec", "sek"]
+            }
+        ],
+        "common_examples": [
+            {
+                "text": "setze den timer", 
+                "intent": "timer", 
+                "entities": []
+            }, 
+            {
+                "text": "stelle timer", 
+                "intent": "timer", 
+                "entities": []
+            }, 
+            {
+                "text": "timer für 15 minuten", 
+                "intent": "timer", 
+                "entities": [
+                    {
+                        "start": 10,
+                        "end": 20,
+                        "value": "15 minuten",
+                        "entity": "duration"
+                    }
+                ]
+            },
+            {
+                "text": "stelle den timer auf 10 minuten",
+                "intent": "timer",
+                "entities": [
+                    {
+                        "start": 21,
+                        "end": 31,
+                        "value": "10 minuten",
+                        "entity": "duration"
+                    }
+                ]
+            },
+            {
+                "text": "setze den timer auf 8 minuten und 30 sekunden",
+                "intent": "timer",
+                "entities": [
+                    {
+                        "start": 20,
+                        "end": 45,
+                        "value": "8 minuten und 30 sekunden",
+                        "entity": "duration"
+                    }
+                ]
+            },
+            {
+                "text": "10 minuten timer",
+                "intent": "timer",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 10,
+                        "value": "10 minuten",
+                        "entity": "duration"
+                    }
+                ]
+            },
+            {
+                "text": "12 minuten und 20 sekunden timer",
+                "intent": "timer",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 26,
+                        "value": "12 minuten und 20 sekunden",
+                        "entity": "duration"
+                    }
+                ]
+            }
+        ]
+    }
+}
+  
