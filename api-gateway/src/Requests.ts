@@ -20,6 +20,34 @@ export async function RasaNluRequest(query: string) {
     }
 }
 
+
+export async function MaryTTSRequest(query: string) {
+    try {
+        const url = 'http://localhost:59125/process?'
+                + 'INPUT_TEXT=' + query
+                + '&INPUT_TYPE=TEXT'
+                + '&OUTPUT_TYPE=AUDIO'
+                + '&AUDIO=WAVE_FILE'
+                + '&LOCALE=de'
+                + '&VOICE=bits1-hsmm'
+
+        const response: any = await request({
+            url: url,
+            method: 'GET',
+            encoding: null
+        }, (error, response, body) => {
+            if (error) {
+                console.log('Error:', error)
+            }
+        })
+        return Buffer.from(response);
+    }
+    catch (e) {
+        return null;
+    }
+
+}
+
 export async function KaldiDeRequest(audioBinary: Buffer) {
     try {
         const response: Buffer = await request({

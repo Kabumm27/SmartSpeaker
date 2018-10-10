@@ -3,7 +3,7 @@ import * as request from "request-promise-native"
 import * as fs from "fs"
 import * as bodyParser from "body-parser"
 
-import { KaldiDeRequest, BingSpeechRequest, RasaNluRequest } from "./Requests"
+import { KaldiDeRequest, BingSpeechRequest, RasaNluRequest, MaryTTSRequest } from "./Requests"
 
 
 export function startServer() {
@@ -57,24 +57,31 @@ export function startServer() {
     app.get("/api/tts/", async (req, res) => {
         const q = req.query["text"];
 
-        var mp3_file = fs.createWriteStream("public/tts.mp3");
+        // var mp3_file = fs.createWriteStream("public/tts.mp3");
 
-        request 
-            .get("https://translate.google.com/translate_tts?ie=UTF-8&q=" + q + "&tl=de-DE&client=tw-ob")
-            .on('error', function (err) {
-                console.log(err);
-            })
-            .on('data', function (data) {
-                mp3_file.write(data);
-            })
-            .on('end', function(){
-                mp3_file.end();
-            });
+        // request 
+        //     .get("https://translate.google.com/translate_tts?ie=UTF-8&q=" + q + "&tl=de-DE&client=tw-ob")
+        //     .on('error', function (err) {
+        //         console.log(err);
+        //     })
+        //     .on('data', function (data) {
+        //         mp3_file.write(data);
+        //     })
+        //     .on('end', function(){
+        //         mp3_file.end();
+        //     });
+
+
+        const maryResponse = await MaryTTSRequest(q);
+
+        var file = fs.createWriteStream("public/tts.wav");
+        file.end(maryResponse);
 
         res.writeHead(200, {
-            "Content-Type": "text/plain"
+            "Content-Type": "audio/wav"
+            // "Content-Type": "text/plain"
         });
-        res.end("ok");
+        res.end(maryResponse);
     })
 
     app.post("/api/speech/", async (req, res) => {
@@ -106,8 +113,8 @@ export function startServer() {
 
         if (response) {
             res.writeHead(200, {
-                // "Content-Type": "application/json",
-                "Content-Type": "text/plain",
+                "Content-Type": "application/json",
+                // "Content-Type": "text/plain",
                 "Connection": "close"
             });
             res.end(response);
