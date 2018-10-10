@@ -1,156 +1,145 @@
 from time import sleep
+from threading import Thread
 
 
-class Color:
-    def __init__(self, r, g, b, w):
-        self.r = r
-        self.g = g
-        self.b = b
-        self.w = w
-
-
-class Everloop:
+class Everloop(Thread):
     def __init__(self):
-        self.image = bytearray([0, 0, 0, 0] * 18)
-        self.mode = "idle"
-        # self.running = False
+        Thread.__init__(self)
 
-        self.idle_color = bytearray([1, 0, 1, 0])
-        self.active_color = bytearray([0, 5, 0, 0])
-        self.busy_color = bytearray([0, 0, 5, 0])
-        self.error_color = bytearray([5, 0, 0, 0])
+        self.color = bytearray([0, 0, 0, 0] * 18)
+        self.image = None
+        self.running = True
+        self.sleep_time = 0.03
+
+        self._pulsating = False
+        self._rotating = False
+
+        self.presets = {
+            'idle': bytearray([0, 0, 0, 0]),
+            'listening': bytearray([0, 5, 0, 0]),
+            'thinking': bytearray([0, 0, 5, 0] + [0, 0, 4, 0] + [0, 0, 3, 0] + [0, 0, 2, 0] + [0, 0, 1, 0] + ([0, 0, 0, 0] * 13)),
+            'error': bytearray([5, 0, 0, 0])
+        }
+
+        self.start()
+
+
+    def run(self):
+        with open('/dev/matrixio_everloop', 'wb', buffering=0) as f:
+            i = 0
+            while self.running:
+                self.image = self.color[:]
+
+                if self._rotating:
+                    self.rotate(i)
+                if self._pulsating:
+                    self.pulsate(i)
+
+                i += 1
+                f.write(self.image)
+                sleep(self.sleep_time)
+
+
+    def terminate(self):
+        self.running = False
+        self.set_off()
+        with open('/dev/matrixio_everloop', 'wb', buffering=0) as f:
+            f.write(self.color)
 
     
-    def render(self):
-        with open('/dev/matrixio_everloop', 'wb', buffering=0) as f:
-            f.write(self.image)
+    def rotate(self, n):
+        n = n % 18
+        self.image = self.image[4 * n:] + self.image[:4 * n]
 
 
-    def modify_color_preset(self, preset, color):
-        if preset == "idle":
-            self.idle_color = color
-            if self.mode == "idle":
-                self.set_idle_color()
-            return True
-        elif preset == "active":
-            self.active_color = color
-            if self.mode == "active":
-                self.set_active_color()
-            return True
-        elif preset == "busy":
-            self.busy_color = color
-            if self.mode == "busy":
-                self.set_busy_color()
-            return True
-        elif preset == "error":
-            self.error_color = color
-            if self.mode == "error":
-                self.set_error_color()
-            return True
-        else:
-            return False
+    def pulsate(self, n, pulse_range=10, speed=3):
+        pulse_range *= speed
+        # intensity = ((pulse_range // 2) - abs(pulse_range - n % (pulse_range * 2))) * 2 # from -pulse_range -> +pulse_range
+        intensity = abs(pulse_range - n % (pulse_range * 2)) # from 0 -> pulse_range
+        intensity = intensity // speed
+
+        for i in range(len(self.image)):
+            if self.image[i] > 0:
+                self.image[i] = max(0, min(255, self.image[i] + intensity))
 
 
-    def modify_color_preset_rgbw(self, preset, r, g, b, w):
+    def modify_color_preset(self, preset, colors):
+        if preset in self.presets:
+            self.presets[preset] = bytearray(colors)
+            return True
+        return False
+
+
+    def modify_color_preset_rgbw(self, preset, r=0, g=0, b=0, w=0):
         return self.modify_color_preset(preset, bytearray([r, g, b, w]))
 
 
-    def set_color_rgbw(self, r, g, b, w):
-        self.image = bytearray([r, g, b, w] * 18)
+    def set_circle_color(self, r=0, g=0, b=0, w=0, pulsating=False, rotating=False):
+        self._pulsating = pulsating
+        self._rotating = rotating
 
-        self.render()
-        self.mode = "custom"
-
-
-    def set_color(self, color):
-        self.set_color_rgbw(color[0], color[1], color[2], color[3])
+        colors = [r, g, b, w]
+        for i in range(len(self.color)):
+            self.color[i] = colors[i % 4]
 
 
-    def set_idle_color(self):
-        self.set_color(self.idle_color)
-        self.mode = "idle"
+    def set_pixel_color(self, n, r=0, g=0, b=0, w=0):
+        n *= 4
+        self.color[n + 0] = r
+        self.color[n + 1] = g
+        self.color[n + 2] = b
+        self.color[n + 3] = w
 
 
-    def set_active_color(self):
-        self.set_color(self.active_color)
-        self.mode = "active"
-        
+    def set_idle(self):
+        self._pulsating = False
+        self._rotating = False
 
-    def set_busy_color(self):
-        self.set_color(self.busy_color)
-        self.mode = "busy"
-        
+        mod = len(self.presets['idle'])
+        for i in range(len(self.color)):
+            self.color[i] = self.presets['idle'][i % mod]
 
-    def set_error_color(self):
-        self.set_color(self.error_color)
-        self.mode = "error"
+
+    def set_listening(self):
+        self._pulsating = True
+        self._rotating = False
+
+        mod = len(self.presets['listening'])
+        for i in range(len(self.color)):
+            self.color[i] = self.presets['listening'][i % mod]
+
+
+    def set_thinking(self):
+        self._pulsating = False
+        self._rotating = True
+
+        mod = len(self.presets['thinking'])
+        for i in range(len(self.color)):
+            self.color[i] = self.presets['thinking'][i % mod]
+
+    
+    def set_error(self):
+        self._pulsating = False
+        self._rotating = False
+
+        mod = len(self.presets['error'])
+        for i in range(len(self.color)):
+            self.color[i] = self.presets['error'][i % mod]
 
 
     def set_off(self):
-        self.set_color_rgbw(0, 0, 0, 0)
-        self.mode = "off"
+        self._pulsating = False
+        self._rotating = False
+
+        for i in range(len(self.color)):
+            self.color[i] = 0
 
 
-    # def everloop_rotating_animation(self, counter):
-    #     index = counter % 17
 
-    #     for led in self.image.leds:
-    #         rotated_led = (led + index) % 17
+if __name__ == '__main__':
+    everloop = Everloop()
+    # everloop.set_pixel_color(0, 0, 0, 0, 5)
+    everloop.set_listening()
 
-    #         led.blue = 0
-    #         led.red = 0
-    #         led.green = max(0, 255 - (rotated_led * 20))
-    #         led.white = 0
-
-    #     self.image.render()
-
-
-    # def everloop_pulsating_animation(self, counter):
-    #     pulse_range = 30
-    #     intensity = ((pulse_range // 2) - abs(pulse_range - counter % (pulse_range * 2))) * 8
-
-    #     for led in self.image.leds:
-    #         led.blue = 0
-    #         led.red = 0
-    #         led.green = 128 + intensity
-    #         led.white = 0
-
-    #     self.image.render()
-
-
-    def everloop_blue(self, counter):
-        self.image = bytearray([5, 5, 0, 0] * 18)
-        self.render()
-
-    
-    def everloop_green(self):
-        self.image = bytearray([0, 0, 5, 0] * 18)
-        self.render()
-
-
-    def everloop_max_bright(self):
-        self.image = bytearray([255, 255, 255, 255] * 18)
-        self.render()
-
-
-    # def animation(self):
-    #     counter = 0
-
-    #     # Start loop of no return!
-    #     while self.running.value:
-    #         if self.mode == 0:
-    #             self.everloop_blue(counter)
-    #         elif self.mode == 1:
-    #             self.everloop_green(counter)
-    #         elif self.mode == 2:
-    #             self.everloop_rotating_animation(counter)
-    #         elif self.mode == 3:
-    #             self.everloop_max_bright(counter)
-    #         else:
-    #             self.everloop_set_off(counter)
-
-    #         counter += 1
-    #         time.sleep(0.3)
-
-    #     self.everloop_set_off(counter)
-
+    sleep(3)
+    everloop.terminate()
