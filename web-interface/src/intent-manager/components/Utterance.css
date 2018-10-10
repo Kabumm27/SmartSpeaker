@@ -1,0 +1,12 @@
+.Utterance {
+  display: inline-block;
+  text-align: left;
+  width: calc(100% - 32px);
+  padding: 2px 5px;
+  margin: 3px 10px;
+  border: 1px solid black;
+}
+
+.Utterance-entity {
+  display: inline-block;
+}
