@@ -602,75 +602,33 @@
                 "text": "grüß dich"
             },
             {
-                "entities": [
-                    {
-                        "end": 21,
-                        "entity": "on_state",
-                        "start": 18,
-                        "value": "ein"
-                    }
-                ],
-                "intent": "lights",
-                "text": "schalte das licht ein"
+                "entities": [],
+                "intent": "lights-off",
+                "text": "schalte das licht aus"
             },
             {
-                "entities": [
-                    {
-                        "end": 8,
-                        "entity": "on_state",
-                        "start": 6,
-                        "value": "an"
-                    }
-                ],
-                "intent": "lights",
-                "text": "licht an"
+                "entities": [],
+                "intent": "lights-off",
+                "text": "licht aus"
             },
             {
-                "entities": [
-                    {
-                        "end": 10,
-                        "entity": "on_state",
-                        "start": 7,
-                        "value": "aus"
-                    }
-                ],
-                "intent": "lights",
+                "entities": [],
+                "intent": "lights-off",
                 "text": "lampen aus"
             },
             {
-                "entities": [
-                    {
-                        "end": 19,
-                        "entity": "on_state",
-                        "start": 16,
-                        "value": "aus"
-                    }
-                ],
-                "intent": "lights",
+                "entities": [],
+                "intent": "lights-off",
                 "text": "schalte lichter aus"
             },
             {
-                "entities": [
-                    {
-                        "end": 17,
-                        "entity": "on_state",
-                        "start": 15,
-                        "value": "an"
-                    }
-                ],
-                "intent": "lights",
-                "text": "schalte lampen an"
+                "entities": [],
+                "intent": "lights-off",
+                "text": "schalte lampen aus"
             },
             {
-                "entities": [
-                    {
-                        "end": 18,
-                        "entity": "on_state",
-                        "start": 15,
-                        "value": "aus"
-                    }
-                ],
-                "intent": "lights",
+                "entities": [],
+                "intent": "lights-off",
                 "text": "mach das licht aus"
             },
             {
@@ -680,34 +638,10 @@
                         "entity": "room",
                         "start": 18,
                         "value": "wohnzimmer"
-                    },
-                    {
-                        "end": 32,
-                        "entity": "on_state",
-                        "start": 29,
-                        "value": "aus"
                     }
                 ],
-                "intent": "lights",
+                "intent": "lights-off",
                 "text": "mach das licht im wohnzimmer aus"
-            },
-            {
-                "entities": [
-                    {
-                        "end": 26,
-                        "entity": "room",
-                        "start": 21,
-                        "value": "küche"
-                    },
-                    {
-                        "end": 30,
-                        "entity": "on_state",
-                        "start": 27,
-                        "value": "aus"
-                    }
-                ],
-                "intent": "lights",
-                "text": "schalte licht in der küche ein"
             },
             {
                 "entities": [
@@ -716,87 +650,39 @@
                         "entity": "room",
                         "start": 17,
                         "value": "schlafzimmer"
-                    },
-                    {
-                        "end": 33,
-                        "entity": "on_state",
-                        "start": 30,
-                        "value": "aus"
                     }
                 ],
-                "intent": "lights",
+                "intent": "lights-off",
                 "text": "schalte licht im schlafzimmer aus"
             },
             {
-                "entities": [
-                    {
-                        "end": 21,
-                        "entity": "on_state",
-                        "start": 18,
-                        "value": "ein"
-                    }
-                ],
-                "intent": "lights",
-                "text": "schalte das licht ein"
+                "entities": [],
+                "intent": "lights-off",
+                "text": "schalte das licht aus"
             },
             {
-                "entities": [
-                    {
-                        "end": 8,
-                        "entity": "on_state",
-                        "start": 6,
-                        "value": "an"
-                    }
-                ],
-                "intent": "lights",
-                "text": "licht an"
+                "entities": [],
+                "intent": "lights-off",
+                "text": "licht aus"
             },
             {
-                "entities": [
-                    {
-                        "end": 10,
-                        "entity": "on_state",
-                        "start": 7,
-                        "value": "aus"
-                    }
-                ],
-                "intent": "lights",
+                "entities": [],
+                "intent": "lights-off",
                 "text": "lampen aus"
             },
             {
-                "entities": [
-                    {
-                        "end": 19,
-                        "entity": "on_state",
-                        "start": 16,
-                        "value": "aus"
-                    }
-                ],
-                "intent": "lights",
+                "entities": [],
+                "intent": "lights-off",
                 "text": "schalte lichter aus"
             },
             {
-                "entities": [
-                    {
-                        "end": 17,
-                        "entity": "on_state",
-                        "start": 15,
-                        "value": "an"
-                    }
-                ],
-                "intent": "lights",
-                "text": "schalte lampen an"
+                "entities": [],
+                "intent": "lights-off",
+                "text": "schalte lampen aus"
             },
             {
-                "entities": [
-                    {
-                        "end": 18,
-                        "entity": "on_state",
-                        "start": 15,
-                        "value": "aus"
-                    }
-                ],
-                "intent": "lights",
+                "entities": [],
+                "intent": "lights-off",
                 "text": "mach das licht aus"
             },
             {
@@ -806,34 +692,10 @@
                         "entity": "room",
                         "start": 18,
                         "value": "wohnzimmer"
-                    },
-                    {
-                        "end": 32,
-                        "entity": "on_state",
-                        "start": 29,
-                        "value": "aus"
                     }
                 ],
-                "intent": "lights",
+                "intent": "lights-off",
                 "text": "mach das licht im wohnzimmer aus"
-            },
-            {
-                "entities": [
-                    {
-                        "end": 26,
-                        "entity": "room",
-                        "start": 21,
-                        "value": "küche"
-                    },
-                    {
-                        "end": 30,
-                        "entity": "on_state",
-                        "start": 27,
-                        "value": "aus"
-                    }
-                ],
-                "intent": "lights",
-                "text": "schalte licht in der küche ein"
             },
             {
                 "entities": [
@@ -842,87 +704,39 @@
                         "entity": "room",
                         "start": 17,
                         "value": "schlafzimmer"
-                    },
-                    {
-                        "end": 33,
-                        "entity": "on_state",
-                        "start": 30,
-                        "value": "aus"
                     }
                 ],
-                "intent": "lights",
+                "intent": "lights-off",
                 "text": "schalte licht im schlafzimmer aus"
             },
             {
-                "entities": [
-                    {
-                        "end": 21,
-                        "entity": "on_state",
-                        "start": 18,
-                        "value": "ein"
-                    }
-                ],
-                "intent": "lights",
-                "text": "schalte das licht ein"
+                "entities": [],
+                "intent": "lights-off",
+                "text": "schalte das licht aus"
             },
             {
-                "entities": [
-                    {
-                        "end": 8,
-                        "entity": "on_state",
-                        "start": 6,
-                        "value": "an"
-                    }
-                ],
-                "intent": "lights",
-                "text": "licht an"
+                "entities": [],
+                "intent": "lights-off",
+                "text": "licht aus"
             },
             {
-                "entities": [
-                    {
-                        "end": 10,
-                        "entity": "on_state",
-                        "start": 7,
-                        "value": "aus"
-                    }
-                ],
-                "intent": "lights",
+                "entities": [],
+                "intent": "lights-off",
                 "text": "lampen aus"
             },
             {
-                "entities": [
-                    {
-                        "end": 19,
-                        "entity": "on_state",
-                        "start": 16,
-                        "value": "aus"
-                    }
-                ],
-                "intent": "lights",
+                "entities": [],
+                "intent": "lights-off",
                 "text": "schalte lichter aus"
             },
             {
-                "entities": [
-                    {
-                        "end": 17,
-                        "entity": "on_state",
-                        "start": 15,
-                        "value": "an"
-                    }
-                ],
-                "intent": "lights",
-                "text": "schalte lampen an"
+                "entities": [],
+                "intent": "lights-off",
+                "text": "schalte lampen aus"
             },
             {
-                "entities": [
-                    {
-                        "end": 18,
-                        "entity": "on_state",
-                        "start": 15,
-                        "value": "aus"
-                    }
-                ],
-                "intent": "lights",
+                "entities": [],
+                "intent": "lights-off",
                 "text": "mach das licht aus"
             },
             {
@@ -932,34 +746,10 @@
                         "entity": "room",
                         "start": 18,
                         "value": "wohnzimmer"
-                    },
-                    {
-                        "end": 32,
-                        "entity": "on_state",
-                        "start": 29,
-                        "value": "aus"
                     }
                 ],
-                "intent": "lights",
+                "intent": "lights-off",
                 "text": "mach das licht im wohnzimmer aus"
-            },
-            {
-                "entities": [
-                    {
-                        "end": 26,
-                        "entity": "room",
-                        "start": 21,
-                        "value": "küche"
-                    },
-                    {
-                        "end": 30,
-                        "entity": "on_state",
-                        "start": 27,
-                        "value": "aus"
-                    }
-                ],
-                "intent": "lights",
-                "text": "schalte licht in der küche ein"
             },
             {
                 "entities": [
@@ -968,52 +758,211 @@
                         "entity": "room",
                         "start": 17,
                         "value": "schlafzimmer"
-                    },
-                    {
-                        "end": 33,
-                        "entity": "on_state",
-                        "start": 30,
-                        "value": "aus"
                     }
                 ],
-                "intent": "lights",
+                "intent": "lights-off",
                 "text": "schalte licht im schlafzimmer aus"
             },
             {
-                "entities": [
-                    {
-                        "end": 21,
-                        "entity": "on_state",
-                        "start": 18,
-                        "value": "ein"
-                    }
-                ],
-                "intent": "lights",
-                "text": "schalte das licht ein"
+                "entities": [],
+                "intent": "lights-off",
+                "text": "schalte das licht aus"
             },
             {
-                "entities": [
-                    {
-                        "end": 8,
-                        "entity": "on_state",
-                        "start": 6,
-                        "value": "an"
-                    }
-                ],
-                "intent": "lights",
+                "entities": [],
+                "intent": "lights-off",
+                "text": "licht aus"
+            },
+            {
+                "entities": [],
+                "intent": "lights-off",
+                "text": "lampen aus"
+            },
+            {
+                "entities": [],
+                "intent": "lights-off",
+                "text": "schalte lichter aus"
+            },
+            {
+                "entities": [],
+                "intent": "lights-off",
+                "text": "schalte lampen aus"
+            },
+            {
+                "entities": [],
+                "intent": "lights-off",
+                "text": "mach das licht aus"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
                 "text": "licht an"
             },
             {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "licht ein"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "lampen ein"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "schalte lichter ein"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "schalte lampen an"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "schalte lampen ein"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "mach das licht an"
+            },
+            {
                 "entities": [
                     {
-                        "end": 10,
-                        "entity": "on_state",
-                        "start": 7,
-                        "value": "aus"
+                        "end": 26,
+                        "entity": "room",
+                        "start": 21,
+                        "value": "küche"
                     }
                 ],
-                "intent": "lights",
-                "text": "lampen aus"
+                "intent": "lights-on",
+                "text": "schalte licht in der küche ein"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "licht an"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "licht ein"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "lampen ein"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "schalte lichter ein"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "schalte lampen an"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "schalte lampen ein"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "mach das licht an"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 26,
+                        "entity": "room",
+                        "start": 21,
+                        "value": "küche"
+                    }
+                ],
+                "intent": "lights-on",
+                "text": "schalte licht in der küche ein"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "licht an"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "licht ein"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "lampen ein"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "schalte lichter ein"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "schalte lampen an"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "schalte lampen ein"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "mach das licht an"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 26,
+                        "entity": "room",
+                        "start": 21,
+                        "value": "küche"
+                    }
+                ],
+                "intent": "lights-on",
+                "text": "schalte licht in der küche ein"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "licht an"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "licht ein"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "lampen ein"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "schalte lichter ein"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "schalte lampen an"
+            },
+            {
+                "entities": [],
+                "intent": "lights-on",
+                "text": "schalte lampen ein"
             },
             {
                 "entities": [],

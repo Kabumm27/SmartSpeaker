@@ -1,8 +1,11 @@
+import os
+import json
 from rasa_nlu.model import Interpreter
 from bottle import route, run, request
 
 # Load latest model
-interpreter = Interpreter.load('models/default/current')
+dirname = os.path.dirname(__file__)
+interpreter = Interpreter.load(dirname + '/models/default/current')
 
 
 # Start server

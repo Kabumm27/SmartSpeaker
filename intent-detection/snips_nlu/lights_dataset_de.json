@@ -1,0 +1,269 @@
+{
+    "entities": {
+      "color": {
+        "automatically_extensible": true,
+        "data": [],
+        "parser_threshold": 1.0,
+        "use_synonyms": true
+      },
+      "room": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "value": "büro",
+            "synonyms": []
+          },
+          {
+            "value": "küche",
+            "synonyms": []
+          }
+        ],
+        "parser_threshold": 1.0,
+        "use_synonyms": true
+      }
+    },
+    "intents": {
+      "lights-color": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "Mach die "
+              },
+              {
+                "entity": "room",
+                "slot_name": "room",
+                "text": "Küchen"
+              },
+              {
+                "text": "lampen "
+              },
+              {
+                "entity": "color",
+                "slot_name": "color",
+                "text": "Blau"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Mach die Lampen "
+              },
+              {
+                "entity": "color",
+                "slot_name": "color",
+                "text": "rot"
+              },
+              {
+                "text": " im "
+              },
+              {
+                "entity": "room",
+                "slot_name": "room",
+                "text": "Büro"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Färbe die "
+              },
+              {
+                "entity": "room",
+                "slot_name": "room",
+                "text": "Büro"
+              },
+              {
+                "text": "Lampen "
+              },
+              {
+                "entity": "color",
+                "slot_name": "color",
+                "text": "gelb"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Kannst du die "
+              },
+              {
+                "entity": "room",
+                "slot_name": "room",
+                "text": "Wohnzimmer"
+              },
+              {
+                "text": "lampen weiß machen?"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Bitte mache die Lampen "
+              },
+              {
+                "entity": "color",
+                "slot_name": "color",
+                "text": "blau"
+              },
+              {
+                "text": " in der "
+              },
+              {
+                "entity": "room",
+                "slot_name": "room",
+                "text": "Küche"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Stelle die Lichtfarbe auf "
+              },
+              {
+                "entity": "color",
+                "slot_name": "color",
+                "text": "blau"
+              },
+              {
+                "text": " in der "
+              },
+              {
+                "entity": "room",
+                "slot_name": "room",
+                "text": "küche"
+              }
+            ]
+          }
+        ]
+      },
+      "lights-off": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "Schalte die Lampen im "
+              },
+              {
+                "entity": "room",
+                "slot_name": "room",
+                "text": "büro"
+              },
+              {
+                "text": " aus"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Licht aus im "
+              },
+              {
+                "entity": "room",
+                "slot_name": "room",
+                "text": "Schlafzimmer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Lichter in der "
+              },
+              {
+                "entity": "room",
+                "slot_name": "room",
+                "text": "Küche"
+              },
+              {
+                "text": " aus"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Mach bitte die Lichter im "
+              },
+              {
+                "entity": "room",
+                "slot_name": "room",
+                "text": "Schlafzimmer"
+              },
+              {
+                "text": " aus"
+              }
+            ]
+          }
+        ]
+      },
+      "lights-on": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "Mach das Licht an in der "
+              },
+              {
+                "entity": "room",
+                "slot_name": "room",
+                "text": "Küche"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Mach die Lampen im "
+              },
+              {
+                "entity": "room",
+                "slot_name": "room",
+                "text": "Büro"
+              },
+              {
+                "text": " an"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Kannst du das Licht im "
+              },
+              {
+                "entity": "room",
+                "slot_name": "room",
+                "text": "Schlafzimmer"
+              },
+              {
+                "text": " einschalten?"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Schalte die "
+              },
+              {
+                "entity": "room",
+                "slot_name": "room",
+                "text": "Schlafzimmer"
+              },
+              {
+                "text": "lampen an"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "language": "de"
+  }
