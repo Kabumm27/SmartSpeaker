@@ -29,7 +29,7 @@ is_playing_music = False
 last_command_timestamp = 0
 last_command = None
 
-hue = HueLights('192.168.178.49', 'ktAfubPaW2rrROs3113VIQcYpfLGXIQNbvpGS6Ji')
+hue = HueLights('Hue-Bridge-IP', 'Hue-API-Key')
 
 
 # LED RING
@@ -95,7 +95,7 @@ def speech_callback(speech):
 
     led_ring.set_idle()
 
-detector = Detector('../wakeword/custom/models/model_1538762234.h5', detected_callback, speech_callback)
+detector = Detector('../wakeword/custom/models/model_latest.h5', detected_callback, speech_callback)
 
 
 # SERVER
