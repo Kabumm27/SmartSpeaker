@@ -1,6 +1,6 @@
 import keras
 import numpy as np
-from utils import audio2mfcc
+from .utils import audio2mfcc
 from scipy.io import wavfile
 import os
 from shutil import move
@@ -8,7 +8,9 @@ from argparse import ArgumentParser
 
 
 def load_model(model_path):
-    return keras.models.load_model(model_path)
+    model = keras.models.load_model(model_path)
+    model._make_predict_function()
+    return model
 
 def predict(samples, sample_rate, model):
     mfcc = audio2mfcc(samples, sample_rate)

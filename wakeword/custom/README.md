@@ -14,9 +14,12 @@ Expects 1 second long audio files in 3 categories (Keyword, Voice, Noise)
 
 ## Training
 ```
+python preprocess.py
 python train.py
 ```
 
+The `preprocess.py` program converts all .wav-files into MFCC-matrices and saves them in numpy files, 
+so that the `train.py` program does not need to calculate each time.
 
 ## Run
 You can run per python interface 
